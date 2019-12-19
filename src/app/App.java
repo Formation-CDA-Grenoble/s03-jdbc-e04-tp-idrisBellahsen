@@ -13,7 +13,7 @@ public class App {
         }
 
         ResultSet test = DBManager.sendQuery(
-            "SELECT * FROM `_order` INNER JOIN user ON user.id=  `_order`.user_id WHERE user.username= 'Geneviève'"
+            "SELECT `address` FROM `shipping_address` INNER JOIN user ON user.id= `shipping_address`.user_id WHERE user.username= 'Stéphanie'"
         );
 
 
