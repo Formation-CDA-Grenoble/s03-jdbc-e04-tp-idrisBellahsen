@@ -11,5 +11,15 @@ public class App {
         while (users.next()) {
             System.out.println("User #" + users.getString(1) + ": " + users.getString(2));
         }
+
+        ResultSet test = DBManager.sendQuery(
+            "SELECT * FROM `brand`"
+        );
+
+
+        while (test.next()) {
+            System.out.println("Marque #" + test.getInt(1) + ": " + test.getString(2));
+        }
+
     }
 }

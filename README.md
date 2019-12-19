@@ -14,7 +14,7 @@ Un client t'a contacté pour te demander de réaliser un jeu de questions/répon
 En observant le diagramme, réponds aux questions suivantes. Tu dois créer un fichier **quiz.md** dans ton dépôt, et écrire les réponses à chaque question en _Markdown_ dedans.
 
 1. Combien de colonnes aura la table **question** en base de données? Donne le nom de chacune de ces colonnes.
-2. Quelle fonctionnalité de l'application est décrite par la relation **Quiz** _written by_ **User**? Essaie d'exprimer cette fonctionnalité sous la forme d'une _user story_ ("en tant que ..., j'ai besoin de ... afin de ...").
+2. Quelle fonctionnalité de l'application est décrite par la relation **Quiz** _written by_ **User**? Essaie d'exprimer cette fonctionnalité sous la forme d'une _user story_ ("en tant que user , j'ai besoin de ... afin de ...").
 3. La relation **Quiz** _written by_ **User** a un losange blanc, alors que la relation **Question** _belongs to_ **Quiz** a un losange noir. Peux-tu expliquer la différence entre ces deux relations?
 4. Combien de question peut-il y avoir dans un questionnaire (minimum et maximum)?
 5. Combien de réponses chaque question peut-elle avoir (minimum et maximum)?
