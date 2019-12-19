@@ -13,7 +13,7 @@ public class App {
         }
 
         ResultSet test = DBManager.sendQuery(
-            "SELECT * FROM `brand`"
+            "SELECT * FROM `brand` WHERE `name`= 'NOKIA'"
         );
 
 
